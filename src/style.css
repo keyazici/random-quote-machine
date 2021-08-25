@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 2em;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  background: repeating-linear-gradient(
+    -45deg,
+    hsl(0 0% 70%),
+    hsl(0 0% 70%) 1px,
+    white 1px,
+    white 10px
+  );
+}
+
+.quote-box {
+  border: 5px solid;
+  padding: 2rem;
+  width: min-content;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    0 6.7px 5.3px hsl(0 0% 0% / 0.028), 0 12.5px 10px hsl(0 0% 0% / 0.035),
+    0 22.3px 17.9px hsl(0 0% 0% / 0.042), 0 41.8px 33.4px hsl(0 0% 0% / 0.05),
+    0 100px 80px hsl(0 0% 0% / 0.07);
+  position: relative;
+}
+
+.twit {
+  font-size: 32px;
+}
+.quo {
+  font-size: 44px;
+}
